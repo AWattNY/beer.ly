@@ -50,3 +50,8 @@ server/config/apiKeys.js
 data/db/
 mongodb
 mongodb-osx-x86_64-3.4.2
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
